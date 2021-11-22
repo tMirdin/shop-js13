@@ -33,7 +33,9 @@ const ProductsContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
   const getProducts = async (params) => {
-    const { data } = await axios(`http://localhost:8000/products?${params}`);
+    const { data } = await axios(
+      `https://shop-js13.herokuapp.com/api/products?${params}`
+    );
     dispatch({
       type: "GET_PRODUCTS",
       payload: data,
@@ -41,12 +43,14 @@ const ProductsContextProvider = ({ children }) => {
   };
 
   async function addProduct(product) {
-    await axios.post("http://localhost:8000/products", product);
+    await axios.post("https://shop-js13.herokuapp.com/api/products", product);
     getProducts();
   }
 
   async function getProductDetails(id) {
-    const { data } = await axios(`http://localhost:8000/products/${id}`);
+    const { data } = await axios(
+      `https://shop-js13.herokuapp.com/api/products/${id}`
+    );
     dispatch({
       type: "GET_PRODUCT_DETAILS",
       payload: data,
@@ -54,12 +58,15 @@ const ProductsContextProvider = ({ children }) => {
   }
 
   const clickDelete = async (id) => {
-    await axios.delete(`http://localhost:8000/products/${id}`);
+    await axios.delete(`https://shop-js13.herokuapp.com/api/products/${id}`);
     getProducts();
   };
 
   async function editProductDetails(id, newProduct) {
-    await axios.patch(`http://localhost:8000/products/${id}`, newProduct);
+    await axios.patch(
+      `https://shop-js13.herokuapp.com/api/products/${id}`,
+      newProduct
+    );
     getProducts();
   }
 
