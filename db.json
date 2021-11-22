@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "type": "Phone",
+      "brand": "Apple",
+      "title": "Iphone 13 Pro",
+      "description": "A dramatically more powerful camera system. A display so responsive, every interaction feels new again. The world’s fastest smartphone chip. Exceptional durability. And a huge leap in battery life.Let’s Pro.",
+      "price": "999" ,
+      "salePrice":"500",
+      "discountInPercent": "5",
+      "phone": "+996 700 312 312",  
+      "image": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/holiday-pg-iphone12-202111?wid=600&hei=460&fmt=png-alpha&.v=1635277103000"],
+      "memory": "128",
+      "countInStock": "5",
+      "model": "Pro max",
+      "id": 1
+  },
+  {
+
+    "type": "New",
+    "brand": "Apple",
+    "title": "Keyboard",
+    "description": "Magic Keyboard is now available with Touch ID, providing fast, easy, and secure authentication for logins and purchases. Magic Keyboard with Touch ID delivers a remarkably comfortable and precise typing experience. It’s also wireless and rechargeable, with an incredibly long-lasting internal battery that will power your keyboard for about a month or more between charges.¹ It pairs automatically with your Mac,so you can get to work right away. And it includes a woven USB-C to Lightning Cable that lets you pair and charge by connecting to a USB-C port on your Mac.",
+    "price": "349",
+    "salePrice":"500",
+    "discountInPercent": "5",
+    "phone": "+996 700 312 312",
+    "memory": "64",
+    "image": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/holiday-pg-magickeyboard-202111?wid=600&hei=460&fmt=png-alpha&.v=1635277097000"],
+    "countInStock": "5",
+    "model": "Magic Keyboard-White",
+    "id": 2
+  },
+  {
+    "type": "Accessories",
+    "brand": "Apple",
+    "title": "Apple Watch",
+    "description": "The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Sport Loop is made from a soft and breathable double-layer nylon weave, with a hook-and-loop fastener for quick and easy adjustment.",
+    "price": "279",
+    "salePrice":"500",
+    "discountInPercent": "5",
+    "phone": "+996 700 312 312",
+    "memory": "256",
+    "image": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/holiday-pg-watchse-202111?wid=600&hei=460&fmt=png-alpha&.v=1635277084000"],
+    "countInStock": "5",
+    "model": "Apple Watch",
+    "id": 3
+  },
+  {
+    "type": "Accessories",
+    "brand": "Apple",
+    "title": "AirPods Pro",
+    "description": ["Sweat and water resistant, including the case — so you’re covered.Magical experience. Connect effortlessly, automatically switch between all your devices, and share audio easily."],
+    "price": "249",
+    "salePrice":"500",
+    "discountInPercent": "5",
+    "phone": "+996700 312 312",
+    "memory": "512",
+    "image": ["https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/holiday-pg-airpodspro-202111?wid=600&hei=460&fmt=png-alpha&.v=1635277111000"],
+    "countInStock": "5",
+    "model": "AirPods Pro",
+    "id": 4
+  }
+  ]
+}
